@@ -1,0 +1,9 @@
+# reg-runtime build outputs (regenerable via `npm run build`)
+/kzero
+/kzero_single
+/kzero_nospill
+/kzero_test
+/test_auto
+
+# temp files
+*.bin

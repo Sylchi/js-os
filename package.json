@@ -1,0 +1,16 @@
+{
+  "name": "reg-runtime",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Zero-libc register-machine scripting runtime, emitted as a UEFI PE32+ application (legacy Linux ELF target with --linux)",
+  "scripts": {
+    "build": "node build.js",
+    "build:linux": "node build.js --linux",
+    "build:single": "node build.js --linux --single-core kzero_single",
+    "test": "node build.js --linux kzero && node tests/run.mjs",
+    "test:uefi": "node tests/run-uefi.mjs",
+    "test:asm": "node tests/instruction_test.js",
+    "probe": "node probe.js probe.efi"
+  }
+}

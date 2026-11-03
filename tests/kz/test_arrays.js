@@ -1,0 +1,18 @@
+let a = [10, 20, 30];
+console.log(a);
+console.log(a.length);
+console.log(a[0]);
+console.log(a[2]);
+console.log(a[3]);
+let idx = 1;
+console.log(a[idx]);
+a.push(99);
+console.log(a);
+console.log(a.length);
+let removed = a.pop();
+console.log(removed);
+console.log(a);
+let empty = [];
+console.log(empty);
+console.log(empty.length);
+console.log([1, [2, 3], 4]);

@@ -309,3 +309,4 @@ Without it, the runtime prints `reg-runtime: AVX-512F is required` and returns
 - `pipeline.js` — SPSC ring + thread primitive emitters.
 - `tests/` — smoke scripts (`tests/kz/`) + runners/harnesses.
 - `legacy/` — superseded implementations (e.g. the pre-ASM JS interpreter).
+# js-os
